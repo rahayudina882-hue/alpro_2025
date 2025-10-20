@@ -64,7 +64,7 @@ text-align: justify}
 </style>
 ```
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+rmarkdown::render("Index.Rmd")
 ```
 
 # R Markdown
